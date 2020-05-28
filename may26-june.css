@@ -2,4 +2,48 @@ body {
 	color: #d9d9d9;
 	background: #1a1a1a;
 	font-family: 'Anton', sans-serif;
+	font-size: 18px;
+	margin: 0px 100px 0px 100px;
+}
+.topnav {
+  overflow: hidden;
+  margin-top: 100px;
+}
+
+.topnav a {
+  width: 50px;
+  height: 50px;
+  float: left;
+  color: white !important;
+  border: solid black 1px;
+  text-align: center;
+  padding: 50px 50px;
+  text-decoration: none;
+  font-size: 17px;
+  background-color: #000000;
+  transition: 0.3s;
+}
+
+.topnav a:hover {
+  background-color: #3c1552;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #0d2330;
+  color: #0d2330;
+}
+
+
+#box1 {
+	border: 2px solid white;
+	width: 70%;
+	height: 100px;
+	margin-left: 13%;
+	margin-top: 80px;
+	text-align: center;
+	padding-top:30px;
+	padding-left:40px;
+	padding-right: 40px;
+ 	font-size: 20px !important;
 }
