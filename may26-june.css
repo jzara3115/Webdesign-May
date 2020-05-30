@@ -7,7 +7,7 @@ body {
 }
 .topnav {
   overflow: hidden;
-  margin-top: 100px;
+  margin-top: 50px;
 }
 
 .topnav a {
@@ -34,6 +34,35 @@ body {
   color: #0d2330;
 }
 
+.subtopnav {
+  overflow: hidden;
+  margin-top: 50px;
+}
+
+.subtopnav a {
+  width: 120px;
+  height: 25px;
+  float: left;
+  color: white !important;
+  border: solid black 1px;
+  text-align: center;
+  padding: 20px 20px;
+  text-decoration: none;
+  font-size: 17px;
+  background-color: #000000;
+  transition: 0.5s;
+}
+
+.subtopnav a:hover {
+  background-color: #3c1552;
+  color: black;
+}
+
+.subtopnav a.active {
+  background-color: #0d2330;
+  color: #0d2330;
+}
+
 
 #box1 {
 	border: 2px solid white;
@@ -46,4 +75,9 @@ body {
 	padding-left:40px;
 	padding-right: 40px;
  	font-size: 20px !important;
+}
+
+.animeimage {
+	width: 350px;
+	height: 360px;
 }
